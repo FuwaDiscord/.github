@@ -10,7 +10,7 @@ body:
       description: |
         A clear, concise and to-the-point description of 
         your request. If you have examples in mind, share them!
-    value: "I'd love if..."
+      value: "I'd love if..."
     validations:
         required: true
   - type: textarea
@@ -18,7 +18,7 @@ body:
     attributes:
       label: Scope 
       description: Where would this be used? What would the benefits be?
-    value: "I think it'd be useful for..."
+      value: "I think it'd be useful for..."
     validations:
       required: false
   - type: markdown 

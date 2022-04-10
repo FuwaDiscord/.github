@@ -15,7 +15,7 @@ body:
         required: true
   - type: textarea
     id: scope
-    attrbutes:
+    attributes:
       label: Scope 
       description: Where would this be used? What would the benefits be?
       value: "I think it'd be useful for..."

@@ -1,7 +1,9 @@
 name: "Bug report"
 description: "Create a report to help us improve"
 title: "[bug]: "
-labels: ["bug"]
+labels: ["t: bug"]
+assignees: ["splatterxl"]
+
 body:
   - type: textarea
     attributes:

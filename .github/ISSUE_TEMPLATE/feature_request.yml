@@ -1,1 +1,32 @@
 name: Feature request
+description: A suggestion for an enhancement or new feature.
+labels: ["t: feature"]
+
+body:
+  - type: textarea 
+    id: value
+    attributes:
+      label: Request
+      description: |
+        A clear, concise and to-the-point description of 
+        your request. If you have examples in mind, share them!
+      value: "I'd love if..."
+    validations:
+        required: true
+  - type: textarea
+    id: scope
+    attrbutes:
+      label: Scope 
+      description: Where would this be used? What would the benefits be?
+      value: "I think it'd be useful for..."
+    validations:
+      required: false
+  - type: markdown 
+    value: |
+      # Before you submit...
+      
+      Make sure of the following things:
+      - this isn't a Discord suggestion. 
+        - We can't directly add things directly to Discord.
+      - this doesn't require calls to an external API.
+    
